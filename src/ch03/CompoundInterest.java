@@ -1,3 +1,5 @@
+package ch03;
+
 /**
  * This program shows how to store tabular data in a 2D array.
  * @version 1.40 2004-02-10
@@ -10,7 +12,7 @@ public class CompoundInterest
       final double STARTRATE = 10;
       final int NRATES = 6;
       final int NYEARS = 10;
-
+      //Version 1.1
       // set interest rates to 10 . . . 15%
       double[] interestRate = new double[NRATES];
       for (int j = 0; j < interestRate.length; j++)
